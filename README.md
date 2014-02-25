@@ -8,12 +8,21 @@ Inspired by RDFa and Dublin Core Metadata Initiative. Properties in the **/terms
 * 	Term Name: **widget**
 	- 	Definition: a stand-alone web component defining a single interaction point for information access and manipulation.
 	- 	Type of Term: **property**
+* 	Term Name: **figure**
+	- 	Definition: a diagram or illustrative drawing.
+	- 	Type of Term: **property**
+* 	Term Name: **caption**
+	- 	Definition: a short explanation or description accompanying a **figure**.
+	- 	Type of Term: **property**
 * 	Term Name: **chart**
-	- 	Definition: graphical representation of data, in which the data is encoded in the form of symbols, such as lines in a line chart or points in a scatter chart.
+	- 	Definition: graphical representation of data, in which the data is encoded in the form of symbols, such as lines in a line chart, points in a scatter chart, or wedges in a pie chart.
 	- 	Type of Term: **property**
-* 	Term Name: **dataset**
-	- 	Definition: set of encoded data, such as a collection of lines each encoding a univariate time series
+* 	Term Name: **graph**
+	-	Definition: a diagram displaying the relationship between variable quantities, where each variable is measured along its own designated **axis**.
 	- 	Type of Term: **property**
+* 	Term Name: **timeseries**
+	- 	Definition: a sequence of data values measured at successive points in time.
+	- 	Type of Term: **class**
 * 	Term Name: **marks**
 	- 	Definition: the visual encodings used to graphically represent data
 	- 	Type of Term: **property**
@@ -23,8 +32,8 @@ Inspired by RDFa and Dublin Core Metadata Initiative. Properties in the **/terms
 * 	Term Name: **bar**
 	- 	Definition: visual encoding where individual data values are represented as rectangular bars with lengths proportional to the values they represent.
 	- 	Type of Term: **property**
-*	Term Name: **pie**
-	- 	Definition: visual encoding where individual data values are represented as sectors of a circle, where the arc length of a sector is proportional to the value it represents.
+*	Term Name: **wedge**
+	- 	Definition: visual encoding where individual data values are represented as sectors of a circle, where the arc length of a sector (wedge) is proportional to the value it represents.
 	- 	Type of Term: **property**
 * 	Term Name: **axis**
 	- 	Definition: reference line within a graph.
