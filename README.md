@@ -46,10 +46,13 @@ Inspired by RDFa and Dublin Core Metadata Initiative. Properties in the **/terms
 	- 	Type of Term: **property**
 * 	Term Name: **axis_label**
 	- 	Definition: a name assigned to an **axis**, which helps to identify the **axis** content.
+* 	Term Name: **meta**
+	- 	Definition: additional information related to **graph** content.
+	- 	Type of Term: **property**
 * 	Term Name: **chart_title**
-	- 	Definition: a name assigned to a chart, which helps to identify the chart content.
+	- 	Definition: a meta-informational name assigned to a chart, which helps to identify the chart content.
 	- 	Type of Term: **property**
 * 	Term Name: **legend**
-	- 	Definition: a list of dependent variables along with each variable's visual encoding.
+	- 	Definition: a meta-informational list of dependent variables along with each variable's visual encoding.
 	- 	Type of Term: **property**
 
