@@ -35,6 +35,9 @@ Inspired by RDFa and Dublin Core Metadata Initiative. Properties in the **/terms
 *	Term Name: **wedge**
 	- 	Definition: visual encoding where individual data values are represented as sectors of a circle, where the arc length of a sector (wedge) is proportional to the value it represents.
 	- 	Type of Term: **property**
+* 	Term Name: **numeric**
+	- 	Definition: visual encoding where a data value is represented as text.
+	- 	Type of Term: **property**
 * 	Term Name: **axis**
 	- 	Definition: reference line within a graph.
 	- 	Type of Term: **property**
