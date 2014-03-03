@@ -58,4 +58,7 @@ Inspired by RDFa and Dublin Core Metadata Initiative. Properties in the **/terms
 * 	Term Name: **legend**
 	- 	Definition: a meta-informational list of dependent variables along with each variable's visual encoding.
 	- 	Type of Term: **property**
+* 	Term Name: **canvas**
+	- 	Definition: available area in which to draw chart elements and encode data values
+	- 	Type of Term: **property**
 
