@@ -30,7 +30,13 @@ Inspired by RDFa and Dublin Core Metadata Initiative. Properties in the **/terms
 	- 	Definition: visual encoding where individual data values are represented as an ordered series of points and where each value is connected to its previous and successor values by straight segments.
 	- 	Type of Term: **property**
 * 	Term Name: **bar**
+	- 	Definition: visual encoding where individual data values are represented as rectangular bars with widths proportional to the values they represent.
+	- 	Type of Term: **property**
+* 	Term Name: **column**
 	- 	Definition: visual encoding where individual data values are represented as rectangular bars with lengths proportional to the values they represent.
+	- 	Type of Term: **property**
+* 	Term Name: **bin**
+	- 	Definition: visual encoding where individual data values are represented 1) in two-dimensions, according to a specified color mapping, or 2) in _n_ greater than three dimensions, by an orthotope (also called a hyperrectangle or box) with visual values along the _n_th dimension proportional to the values they represent.
 	- 	Type of Term: **property**
 *	Term Name: **wedge**
 	- 	Definition: visual encoding where individual data values are represented as sectors of a circle, where the arc length of a sector (wedge) is proportional to the value it represents.
