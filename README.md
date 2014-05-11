@@ -11,17 +11,23 @@ Inspired by RDFa and Dublin Core Metadata Initiative. Properties in the **/terms
 * 	Term Name: **figure**
 	- 	Definition: a diagram or illustrative drawing.
 	- 	Type of Term: **property**
-* 	Term Name: **caption**
-	- 	Definition: a short explanation or description accompanying a **figure**.
-	- 	Type of Term: **property**
 * 	Term Name: **chart**
 	- 	Definition: graphical representation of data, in which the data is encoded in the form of symbols, such as lines in a line chart, points in a scatter chart, or wedges in a pie chart.
 	- 	Type of Term: **property**
 * 	Term Name: **graph**
 	-	Definition: a diagram displaying the relationship between variable quantities, where each variable is measured along its own designated **axis**.
 	- 	Type of Term: **property**
+* 	Term Name: **multipanel**
+	- 	Definition: a graph collection where graphs are organized vertically and share a common horizontal **axis**
+	- 	Type of Term: **property**
+* 	Term Name: **canvas**
+	- 	Definition: available area in which to draw chart elements and encode data values
+	- 	Type of Term: **property**
 * 	Term Name: **timeseries**
 	- 	Definition: a sequence of data values measured at successive points in time.
+	- 	Type of Term: **class**
+*	Term Name: **histogram**
+	- 	Definition: tabulated frequencies shown as polygons (**bins**) which are encoded such that a single dimension is proportional to frequencies observed within a defined interval.
 	- 	Type of Term: **class**
 * 	Term Name: **marks**
 	- 	Definition: the visual encodings used to graphically represent data
@@ -47,6 +53,9 @@ Inspired by RDFa and Dublin Core Metadata Initiative. Properties in the **/terms
 * 	Term Name: **text**
 	- 	Definition: visual encoding where a data value is represented as text.
 	- 	Type of Term: **property**
+* 	Term Name: **axes**
+	- 	Definition: the set of reference lines within a graph (**axis**)
+	- 	Typ of Term: **property**
 * 	Term Name: **axis**
 	- 	Definition: reference line within a graph.
 	- 	Type of Term: **property**
@@ -64,10 +73,10 @@ Inspired by RDFa and Dublin Core Metadata Initiative. Properties in the **/terms
 * 	Term Name: **chart_title**
 	- 	Definition: a meta-informational name assigned to a chart, which helps to identify the chart content.
 	- 	Type of Term: **property**
+* 	Term Name: **caption**
+	- 	Definition: a short explanation or description accompanying a **figure**.
+	- 	Type of Term: **property**
 * 	Term Name: **legend**
 	- 	Definition: a meta-informational list of dependent variables along with each variable's visual encoding.
-	- 	Type of Term: **property**
-* 	Term Name: **canvas**
-	- 	Definition: available area in which to draw chart elements and encode data values
 	- 	Type of Term: **property**
 
